@@ -44,9 +44,13 @@ export default function Skills() {
               >
                 <GlowCard className="h-full p-6 sm:p-8" glowColor="cyan">
                   <div className="flex items-center gap-3 mb-6">
-                    <div className="p-2.5 rounded-lg bg-secondary-500/10 text-secondary-400">
-                      <Icon className="w-6 h-6" />
-                    </div>
+                    <motion.div 
+                      className="p-2.5 rounded-lg bg-white/5 border border-white/10 text-zinc-300 flex items-center justify-center cursor-default"
+                      whileHover={{ rotateY: 360 }}
+                      transition={{ duration: 0.5, ease: "easeInOut" }}
+                    >
+                      <Icon className="w-5 h-5" />
+                    </motion.div>
                     <h3 className="text-xl font-semibold text-white">
                       {category.label}
                     </h3>

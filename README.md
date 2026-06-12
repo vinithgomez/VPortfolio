@@ -1,6 +1,6 @@
 # Vinith Gomez - Portfolio
 
-A professional, high-performance developer portfolio built with Next.js, Tailwind CSS, and Framer Motion. Designed with a sleek, monochromatic aesthetic tailored for an AI & Full-Stack Engineer.
+A professional, high-performance developer portfolio built with Next.js, Tailwind CSS, and Framer Motion. Designed with a sleek, monochromatic aesthetic.
 
 ![Portfolio Preview](/public/og-image.png)
 

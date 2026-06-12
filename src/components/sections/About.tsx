@@ -39,7 +39,7 @@ export default function About() {
                 <p>
                   Today, I specialize in the React ecosystem (Next.js, TypeScript,
                   Tailwind CSS) on the frontend, and robust, scalable architectures
-                  on the backend using Node.js, Go, or Python.
+                  on the backend using Node.js, Python.
                 </p>
                 <p>
                   When I'm not coding, you can usually find me reading about
