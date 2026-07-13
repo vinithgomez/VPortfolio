@@ -31,7 +31,7 @@ export default function About() {
               </div>
               <div className="space-y-4 text-zinc-400 leading-relaxed text-lg">
                 <p>
-                  I'm a full-stack engineer who loves building intuitive,
+                  I&apos;m a full-stack engineer who loves building intuitive,
                   high-performance web applications. My journey started with a
                   simple curiosity about how things work on the internet, which
                   quickly turned into a deep passion for software engineering.
@@ -42,7 +42,7 @@ export default function About() {
                   on the backend using Node.js, Python.
                 </p>
                 <p>
-                  When I'm not coding, you can usually find me reading about
+                  When I&apos;m not coding, you can usually find me reading about
                   architecture patterns, exploring open-source projects, or
                   enjoying a good cup of coffee while designing my next side project.
                 </p>

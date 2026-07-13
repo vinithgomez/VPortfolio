@@ -35,7 +35,7 @@ export default function Projects() {
               <AnimatedText text="Featured Work." />
             </h2>
             <p className="section-subtitle">
-              A selection of projects that I'm proud of.
+              A selection of projects that I&apos;m proud of.
             </p>
           </div>
 

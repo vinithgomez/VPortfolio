@@ -16,7 +16,7 @@ export default function Experience() {
             <AnimatedText text="Experience." />
           </h2>
           <p className="section-subtitle">
-            My professional journey and the companies I've helped grow.
+            My professional journey and the companies I&apos;ve helped grow.
           </p>
         </div>
 

@@ -72,10 +72,10 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
           <h2 className="section-title justify-center">
-            <AnimatedText text="Let's Connect." />
+            <AnimatedText text="Let&apos;s Connect." />
           </h2>
           <p className="section-subtitle mx-auto">
-            Have a project in mind, a question, or just want to say hi? I'd love to hear from you.
+            Have a project in mind, a question, or just want to say hi? I&apos;d love to hear from you.
           </p>
         </div>
 
@@ -173,7 +173,7 @@ export default function Contact() {
                   className="flex items-center gap-2 text-green-400 bg-green-500/10 p-4 rounded-xl border border-green-500/20"
                 >
                   <CheckCircle2 className="w-5 h-5 shrink-0" />
-                  <p className="text-sm">Message sent successfully! I'll get back to you soon.</p>
+                  <p className="text-sm">Message sent successfully! I&apos;ll get back to you soon.</p>
                 </motion.div>
               )}
               {status === "error" && (
