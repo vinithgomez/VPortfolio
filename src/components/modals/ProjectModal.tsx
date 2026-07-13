@@ -2,7 +2,7 @@
 
 import { Dialog, DialogContent, DialogTitle } from "@radix-ui/react-dialog";
 import { motion, AnimatePresence } from "framer-motion";
-import { Project } from "@/lib/data";
+import type { Project } from "@/types";
 import { X, Github, ExternalLink, Calendar, Layers, Activity } from "lucide-react";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 

@@ -2,7 +2,8 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { projects, Project } from "@/lib/data";
+import { projects } from "@/lib/data";
+import type { Project } from "@/types";
 import SectionWrapper from "../shared/SectionWrapper";
 import GlowCard from "../shared/GlowCard";
 import AnimatedText from "../shared/AnimatedText";

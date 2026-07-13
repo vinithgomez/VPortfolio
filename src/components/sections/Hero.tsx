@@ -44,12 +44,12 @@ export default function Hero() {
     return () => clearTimeout(timeout);
   }, [displayed, deleting, roleIndex]);
 
-  const container = {
+  const container: any = {
     hidden: {},
     visible: { transition: { staggerChildren: 0.1 } },
   };
 
-  const item = {
+  const item: any = {
     hidden: { opacity: 0, y: 24 },
     visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] } },
   };
