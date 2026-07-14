@@ -75,7 +75,7 @@ export default function Navbar() {
           </motion.button>
 
           {/* Desktop Nav */}
-          <ul className="hidden lg:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
+          <ul className="hidden xl:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
             {navItems.map((item) => (
               <li key={item.href}>
                 <button
@@ -124,7 +124,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden p-2 rounded-full bg-white/5 text-zinc-400 hover:text-white transition-colors ml-auto md:ml-0"
+            className="xl:hidden p-2 rounded-full bg-white/5 text-zinc-400 hover:text-white transition-colors ml-auto md:ml-0"
             aria-label="Toggle menu"
           >
             {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -140,7 +140,7 @@ export default function Navbar() {
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -20 }}
             transition={{ duration: 0.2 }}
-            className="fixed inset-x-4 top-[80px] z-40 glass border border-white/10 rounded-2xl lg:hidden overflow-hidden"
+            className="fixed inset-x-4 top-[80px] z-40 glass border border-white/10 rounded-2xl xl:hidden overflow-hidden"
           >
             <nav className="p-4 flex flex-col gap-1">
               {navItems.map((item, i) => (

@@ -57,7 +57,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden pt-24 pb-24 md:pt-32"
     >
       {/* Background mesh */}
       <div className="absolute inset-0 mesh-bg" />
@@ -109,11 +109,11 @@ export default function Hero() {
           <p className="text-zinc-500 text-lg font-medium mb-2 font-mono tracking-wide">
             Hello, I&apos;m
           </p>
-          <h1 className="text-6xl sm:text-7xl md:text-8xl font-bold tracking-tight leading-none mb-4">
+          <h1 className="text-5xl sm:text-7xl md:text-8xl font-bold tracking-tight leading-none mb-4">
             <span className="gradient-text">{personalInfo.name}</span>
           </h1>
           <div className="h-12 flex items-center justify-center">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold text-zinc-300">
+            <h2 className="text-xl sm:text-3xl md:text-4xl font-semibold text-zinc-300">
               {displayed}
               <span className="animate-blink text-primary">|</span>
             </h2>
@@ -123,7 +123,7 @@ export default function Hero() {
         {/* Bio */}
         <motion.p
           variants={item}
-          className="text-zinc-400 text-lg max-w-2xl mx-auto leading-relaxed mb-10"
+          className="text-zinc-400 text-base sm:text-lg max-w-2xl mx-auto leading-relaxed mb-10 px-2"
         >
           {personalInfo.bio}
         </motion.p>
